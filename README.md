@@ -4,7 +4,7 @@
 
 ## **Introduction**
 
-After recovering from a running injury, I set a new goal: to complete the **Winter Green Man Ultra** in March 2025. Combining my passion for running and data science, I've embarked on a project to build a personalized training dashboard using data from my Garmin watch.
+After recovering from a running injury, I set a new goal: to complete the **Winter Green Man Ultra** (https://www.greenmanultra.co.uk/the-winter-green-man-ultra/) in March 2025. Combining my passion for running and data science, I've embarked on a project to build a personalized training dashboard using data from my Garmin watch.
 
 This project aims to:
 
@@ -31,7 +31,7 @@ This project aims to:
 
 ## **Features**
 
-- **Automated Data Retrieval:** Batch scraping of Garmin activity data using an extended functionality of the `garminexpress` package.
+- **Automated Data Retrieval:** Batch scraping of Garmin activity data using an extended functionality of the `garmiconnect` package.
 - **Data Processing and Storage:** Parsing and storing data from various file formats (.FIT, .TCX, .GPX, .CSV).
 - **Interactive Dashboard:** Built with Dash and Plotly, featuring:
   - **Weekly Mileage Tracker:** Visualizes weekly running mileage against a 10% incremental target leading up to race day.
@@ -45,7 +45,7 @@ This project aims to:
 - **Data Processing:** Pandas, GeoPandas
 - **Data Visualization:** Plotly, Dash
 - **Web Framework:** Dash (by Plotly)
-- **Data Retrieval:** `garminexpress` package
+- **Data Retrieval:** `garminconnect` package
 - **Cloud Services (Planned):** AWS Lambda
 - **File Formats:** .FIT, .TCX, .GPX, .CSV
 
